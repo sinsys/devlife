@@ -1,0 +1,22 @@
+$color-white: #FEFEFE;
+$color-near-white: #EFEFEF;
+$color-near-black: #131313;
+$color-black: #030303;
+
+$color-primary-base: #CBD0B9;
+$color-primary-highlight: #FA824C;
+$color-primary-bg-base: #3D5A6C;
+$color-primary-bg-secondary: #462033;
+$color-primary-alternate: #9CB57D;
+
+:export {
+  color-white: $color-white;
+  color-near-white: $color-near-white;
+  color-near-black: $color-near-black;
+  color-black: $color-black;
+  color-primary-base: $color-primary-base;
+  color-primary-highlight: $color-primary-highlight;
+  color-primary-bg-base: $color-primary-bg-base;
+  color-primary-bg-secondary: $color-primary-bg-secondary;
+  color-primary-alternate: $color-primary-alternate;
+}
