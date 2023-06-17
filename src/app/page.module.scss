@@ -1,11 +1,29 @@
-@import '/src/styles/colors';
+@import '@app/styles/colors';
 
 .main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
+  padding: 6rem;
+  background: $color-primary-bg-base;
 }
+
+div.description {
+  padding: 2rem;
+  border-radius: 0 2rem 0 2rem;
+
+  span {
+    font-size: 3rem;
+  }
+  span.logo:nth-child(1) {
+    font-weight: bold;
+    color: $color-primary-base;
+  }
+  span.logo:nth-child(2) {
+    color: $color-primary-alternate;
+  }
+}
+
 
