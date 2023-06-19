@@ -4,7 +4,7 @@ import styles from '@app/page.module.scss'
 export default function HomePage() {
   return (
     <main className={styles.main}>
-      Home Page
+      <h1>Home Page</h1>
     </main>
   )
 }
