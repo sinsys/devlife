@@ -1,0 +1,31 @@
+$color-white: #FEFEFE;
+$color-near-white: #EFEFEF;
+$color-near-black: #131313;
+$color-black: #030303;
+
+$color-low: #19181A;
+$color-high: #B19F9E;
+$color-green: #479761;
+$color-yellow: #CEBC81;
+$color-red: #A16E83;
+
+$color-back-pri: #170E13;
+$color-back-sec: #7A7ADB;
+$color-back-pri2: #bdd4e7;
+$color-back-sec2: #8693ab;
+
+:export {
+  color-white: $color-white;
+  color-near-white: $color-near-white;
+  color-near-black: $color-near-black;
+  color-black: $color-black;
+  color-low: $color-low;
+  color-high: $color-high;
+  color-green: $color-green;
+  color-yellow: $color-yellow;
+  color-red: $color-red;
+  color-back-pri: $color-back-pri;
+  color-back-sec: $color-back-sec;
+  color-back-pri2: $color-back-pri2;
+  color-back-sec2: $color-back-sec2;
+}
