@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from '@app/page.module.scss'
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main className={styles.main}>
 
