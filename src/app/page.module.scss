@@ -1,19 +1,29 @@
 @import '/src/style/colors';
 
-.description {
-  padding: 2rem;
-  border-radius: 0 2rem 0 2rem;
+.navbar {
+  min-width: 100%;
+  padding: 0.5rem;
+  background: $color-near-black;
+  color: $color-near-white;
 
   span {
-    font-size: 3rem;
+    font-size: 2rem;
   }
+
   span.logo:nth-child(1) {
     font-weight: bold;
-    color: $color-primary-base;
+    color: $color-near-white;
   }
+
   span.logo:nth-child(2) {
-    color: $color-primary-alternate;
+    color: $color-green;
   }
 }
 
-
+.footer {
+  min-width: 100%;
+  padding: 0.5rem;
+  background: $color-near-black;
+  color: $color-near-white;
+  text-align: right;
+}
