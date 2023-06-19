@@ -1,7 +1,7 @@
 import { Plus_Jakarta_Sans } from 'next/font/google'
 
 import Footer from '@/components/footer/Footer'
-import Navbar from '@/components/navbar/Navbar'
+import Header from '@/components/header/Header'
 
 import './globals.scss'
 
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={jakarta.className}>
-        <Navbar />
+        <Header />
         {children}
         <Footer />
       </body>

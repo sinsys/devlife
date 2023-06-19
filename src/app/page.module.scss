@@ -1,26 +1,36 @@
 @import '/src/style/colors';
 
-.navbar {
-  min-width: 100%;
-  padding: 0.5rem;
-  background: $color-near-black;
-  color: $color-near-white;
+header.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  span {
-    font-size: 2rem;
-  }
+a.logo {
+  font-size: 2rem;
 
-  span.logo:nth-child(1) {
+  & span:nth-child(1) {
     font-weight: bold;
     color: $color-near-white;
   }
 
-  span.logo:nth-child(2) {
-    color: $color-green;
+  & span:nth-child(2) {
+    color: $color-green-bright;
   }
 }
 
-.footer {
+nav.navigation {
+  & a {
+    margin: 0 0.5rem;
+
+    &:hover, &.active {
+      color: $color-green;
+    }
+  }
+}
+
+footer.footer {
   min-width: 100%;
   padding: 0.5rem;
   background: $color-near-black;
